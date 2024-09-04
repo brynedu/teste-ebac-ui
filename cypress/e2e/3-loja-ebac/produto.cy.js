@@ -10,7 +10,7 @@ describe('Funcionalidade: Produtos', () => {
         cy.get('.products > .row')
             //.first() seleciona o primeiro
             //.last() seleciona o ultimo
-            // .eq(2) seleciona por númeração
+            //.eq(2) seleciona por númeração
             .contains('Ariel Roll Sleeve Sweatshirt')
             .click()
         cy.get('#tab-title-description > a').should('contain', 'Descrição')
