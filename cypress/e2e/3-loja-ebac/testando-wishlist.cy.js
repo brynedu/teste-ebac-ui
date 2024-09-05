@@ -4,7 +4,7 @@ import { faker } from '@faker-js/faker';
 describe('Funcionalidade: Adicionando produto na wishlist e finalizando compra', () => {
 
     beforeEach(() => {
-        cy.visit('http://lojaebac.ebaconline.art.br/produtos')
+        cy.visit('produtos')
     });
 
     it('Deve selecionar um produto, adicionar na wishlist, cadastrar uma conta, configurar produto e finalizar compra', () => {
